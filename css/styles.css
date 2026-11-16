@@ -7,7 +7,7 @@ body, header, nav, main, footer, img, h1, h3 {
 
 /* Style rules for body and img */
 body {
-    background-color: #fddab8;
+    background-color: #F0F8FF;
 }
 
 img {
@@ -21,12 +21,12 @@ header h1 {
     font-family: Georgia, Times, serif;
     padding: 3%;
     color: #101a2d;
-    background-color: #818807;
+    background-color: #339966;
 }
 
 /* Style Rules for navigation */
 nav {
-  background-color: #93a4b7;
+  background-color: #6ca2e8;
 }
 
 nav ul {
@@ -71,7 +71,7 @@ main h3 {
 footer {
     text-align: center;
     font-size: 0.85em;
-    color: #fddab8;
+    color: #F0F8FF;
     padding: 1% 0%;
 }
 
