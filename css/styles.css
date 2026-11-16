@@ -4,9 +4,10 @@ body, header, nav, main, footer, img, h1, h3 {
     padding: 0;
     border: 0;
 }
+
 /* Style rules for body and img */
 body {
-    background-color: #e3eaf8;
+    background-color: #fddab8;
 }
 
 img {
@@ -20,10 +21,12 @@ header h1 {
     font-family: Georgia, Times, serif;
     padding: 3%;
     color: #101a2d;
+    background-color: #818807;
 }
+
 /* Style Rules for navigation */
 nav {
-  background-color: #556b2f;
+  background-color: #93a4b7;
 }
 
 nav ul {
@@ -46,9 +49,7 @@ nav li a {
     text-decoration: none;
 }
 
-/* 
-    Style rules for main content
-*/
+/* Style rules for main content */
 
 main {
     padding: 2%;
@@ -70,12 +71,11 @@ main h3 {
 footer {
     text-align: center;
     font-size: 0.85em;
-    background-color: #1d396d;
-    color: #e3eaf8;
+    color: #fddab8;
     padding: 1% 0%;
 }
 
 footer p {
-    color: #e3eaf8;
+    color: #f28b0c;
     text-decoration: none;
 }
