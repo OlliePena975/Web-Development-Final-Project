@@ -21,12 +21,12 @@ header h1 {
     font-family: Georgia, Times, serif;
     padding: 3%;
     color: #101a2d;
-    background-color: #339966;
+    background-color:  #388c4d;
 }
 
 /* Style Rules for navigation */
 nav {
-  background-color: #6ca2e8;
+  background-color: #6b8bd6;
 }
 
 nav ul {
@@ -47,6 +47,11 @@ nav li a {
     color: #e3eaf8;
     padding: 0.5em 2em;
     text-decoration: none;
+}
+
+mav a:hover {
+    color: #6b8bd6
+    background-color: #e3eaf8;
 }
 
 /* Style rules for main content */
