@@ -19,6 +19,7 @@ img {
 
 /* Style Rules for header */
 header {
+    width: 100%;
     position: -webkit-sticky;
     position: sticky;
     top: 0;
@@ -64,6 +65,10 @@ nav li:first-child {
 
 /* Style rules for main content */
 
+#container {
+    width: 80%;
+}
+
 main {
     padding: 2%;
     font-family: Geneva, Arial, sans-serif;
@@ -78,6 +83,10 @@ main p {
 main h3 {
     padding-top: 2%;
     font-size: 2em;
+}
+
+figure {
+    max-width: 100%;
 }
 
 /* Style rules for footer */
@@ -95,32 +104,96 @@ footer p {
     font-family: "Smooch Sans", sans-serif;
 }
 
-/* Style rules for desktop */
-/* nav {
-  background-color: #6b8bd6;
+/* Tablet styles */
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    body {
+        font-size: 18px;
+    }
+
+    .grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    button, a.btn {
+        min-height: 44px;
+        min-width: 44px;
+    }
+    
+    nav {
+        background-color: #6b8bd6;
+    }
+
+    nav ul {
+        list-style-type: none;
+        margin: 0;
+        text-align: center;
+    }
+
+    nav li {
+        display: inline-block;
+        font-size: 1.5em;
+        font-family: Verdana, Arial, sans-serif;
+        font-weight: bold;
+    }
+
+    nav li a {
+        display: block;
+        color: #e3eaf8;
+        padding: 0.5em 2em;
+        text-decoration: none;
+    }
+
+    nav a:hover {
+        color: #4f6cb0;
+        background-color: #e3eaf8;
+    }
 }
 
-nav ul {
-    list-style-type: none;
-    margin: 0;
-    text-align: center;
+/* Desktop styles (1025px and up) */
+@media screen and (min-width: 1025px) {
+    body {
+        font-size: 20px;
+    }
+
+    nav {
+        background-color: #6b8bd6;
+    }
+
+    nav ul {
+        list-style-type: none;
+        margin: 0;
+        text-align: center;
+    }
+
+    nav li {
+        display: inline-block;
+        font-size: 1.5em;
+        font-family: Verdana, Arial, sans-serif;
+        font-weight: bold;
+    }
+
+    nav li a {
+        display: block;
+        color: #e3eaf8;
+        padding: 0.5em 2em;
+        text-decoration: none;
+    }
+
+    nav a:hover {
+        color: #4f6cb0;
+        background-color: #e3eaf8;
+    }
+
+    .grid {
+        grid-template-columns: repeat(3, 1fr);
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+    .card:hover {
+        transform: translateY(-2px);
+    }
 }
 
-nav li {
-    display: inline-block;
-    font-size: 1.5em;
-    font-family: Verdana, Arial, sans-serif;
-    font-weight: bold;
-}
 
-nav li a {
-    display: block;
-    color: #e3eaf8;
-    padding: 0.5em 2em;
-    text-decoration: none;
-}
-
-nav a:hover {
-    color: #4f6cb0
-    background-color: #e3eaf8;
-} */
