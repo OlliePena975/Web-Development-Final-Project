@@ -17,9 +17,12 @@ img {
     display: block;
 }
 
+#figure {
+    text-align: center;
+}
+
 /* Style Rules for header */
 header {
-    width: 100%;
     position: -webkit-sticky;
     position: sticky;
     top: 0;
@@ -29,13 +32,13 @@ header {
     padding: 3%;
     background-color:  #2f8444;
     display: inline-block;
+    max-width: 100%;
 }
 
 header h1 {
-    font-size: 2.5em;
-    max-width: 90%;
+    font-size: 2em;
     color: #101a2d;
-    
+    max-width: 90%;
 }
 
 /* Style Rules for navigation */
@@ -88,13 +91,16 @@ main p {
     text-align: center;
 }
 
+main h2 {
+    padding-top: 2%;
+    font-size: 2em;
+    text-align: center;
+}
+
 main h3 {
     padding-top: 2%;
     font-size: 2em;
-}
-
-figure {
-    max-width: 100%;
+    text-align: center;
 }
 
 /* Style rules for footer */
@@ -129,13 +135,12 @@ footer p {
         font-family: "Black Ops One", system-ui;
         padding: 3%;
         background-color:  #2f8444;
-        display: inline-block;
     }
 
     header h1 {
         font-size: 2.5em;
-        max-width: 90%;
         color: #101a2d;
+        max-width: 90%;
     }
 
     /* Style rules for nav */
