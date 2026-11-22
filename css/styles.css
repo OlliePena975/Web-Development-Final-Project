@@ -24,21 +24,18 @@ header {
     position: sticky;
     top: 0;
     text-align: center;
-    font-size: 3em;
+    font-size: 2.5em;
     font-family: "Black Ops One", system-ui;
-    font-weight: 400;
-    font-style: normal;
     padding: 3%;
     background-color:  #2f8444;
     display: inline-block;
 }
 
 header h1 {
+    font-size: 2.5em;
+    max-width: 90%;
     color: #101a2d;
-}
-
-header img {
-    margin: 0 auto;
+    
 }
 
 /* Style Rules for navigation */
@@ -56,17 +53,28 @@ nav ul {
 nav li {
     font-size: 1.5em;
     font-family: Verdana, Arial, sans-serif;
+    font-weight: bold;
     border-top: 1px solid #e3eaf8;
+    
 }
 
-nav li:first-child {
-    border-top: none;
+nav li {
+    display: inline-block;
+    font-size: 1.5em;
+    font-family: Verdana, Arial, sans-serif;
+    font-weight: bold;
+}
+
+nav li a {
+    color: #e3eaf8;
+    padding: 0.5em 2em;
+    text-decoration: none;
 }
 
 /* Style rules for main content */
 
 #container {
-    width: 80%;
+    width: 100%;
 }
 
 main {
@@ -107,18 +115,30 @@ footer p {
 /* Tablet styles */
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
+    
+    /* Style rules for body and img */
+
     body {
         font-size: 18px;
     }
 
-    .grid {
-        grid-template-columns: repeat(2, 1fr);
+    /* Style rules for header */
+    header {
+        text-align: center;
+        font-size: 2.5em;
+        font-family: "Black Ops One", system-ui;
+        padding: 3%;
+        background-color:  #2f8444;
+        display: inline-block;
     }
 
-    button, a.btn {
-        min-height: 44px;
-        min-width: 44px;
+    header h1 {
+        font-size: 2.5em;
+        max-width: 90%;
+        color: #101a2d;
     }
+
+    /* Style rules for nav */
     
     nav {
         background-color: #6b8bd6;
@@ -148,13 +168,46 @@ footer p {
         color: #4f6cb0;
         background-color: #e3eaf8;
     }
+
+    /* Other */
+
+    .grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    button, a.btn {
+        min-height: 44px;
+        min-width: 44px;
+    }
 }
 
 /* Desktop styles (1025px and up) */
 @media screen and (min-width: 1025px) {
+    
+    /* Style rules for body and img */
+    
     body {
         font-size: 20px;
     }
+
+    /* Style rules for header */
+
+    header {
+        text-align: center;
+        font-size: 2.5em;
+        font-family: "Black Ops One", system-ui;
+        padding: 3%;
+        background-color:  #2f8444;
+        display: inline-block;
+    }
+
+    header h1 {
+        font-size: 2.5em;
+        max-width: 90%;
+        color: #101a2d;
+    }
+
+    /* Style rules for navigation */
 
     nav {
         background-color: #6b8bd6;
@@ -184,6 +237,8 @@ footer p {
         color: #4f6cb0;
         background-color: #e3eaf8;
     }
+
+    /* Other */
 
     .grid {
         grid-template-columns: repeat(3, 1fr);
