@@ -85,6 +85,12 @@ main {
     overflow: auto;
 }
 
+main h1 {
+    padding-top: 2%;
+    font-size: 2.25em;
+    text-align: center;
+}
+
 main p {
     font-size: 1.25em;
     text-align: center;
@@ -99,7 +105,22 @@ main h2 {
 main h3 {
     padding-top: 2%;
     font-size: 2em;
+<<<<<<< HEAD
     text-align: center;
+=======
+}
+
+figure {
+    max-width: 100%;
+    text-align: center;
+}
+
+figcaption {
+    text-align: center;
+    color: #f28b0c;
+    padding: 1% 0%;
+    font-family: "Smooch Sans", sans-serif;
+>>>>>>> ef2fc1b (Created new pages)
 }
 
 /* Style rules for footer */
@@ -115,6 +136,12 @@ footer p {
     color: #f28b0c;
     text-decoration: none;
     font-family: "Smooch Sans", sans-serif;
+}
+
+.social {
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
 }
 
 /* Tablet styles */
