@@ -115,7 +115,7 @@ main h3 {
 
 footer {
     text-align: center;
-    font-size: 0.85em;
+    font-size: 1em;
     color: #F0F8FF;
     padding: 1% 0%;
 }
@@ -131,6 +131,10 @@ footer p {
     display: inline-block;
     text-decoration: none;
     font-size: 0.85em;
+    max-size: 15%;
+}
+
+.social img {
     max-size: 15%;
 }
 
