@@ -18,9 +18,17 @@ img {
     text-align: center;
 }
 
-.figure {
+figure {
     text-align: center;
 }
+
+figcaption {
+    text-align: center;
+    color: #f28b0c;
+    text-decoration: none;
+    font-family: "Smooch Sans", sans-serif;
+}
+
 
 /* Style Rules for header */
 header {
