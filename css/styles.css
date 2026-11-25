@@ -131,10 +131,9 @@ footer p {
     display: inline-block;
     text-decoration: none;
     font-size: 0.85em;
-    max-size: 15%;
 }
 
-.social img {
+.logo {
     max-size: 15%;
 }
 
