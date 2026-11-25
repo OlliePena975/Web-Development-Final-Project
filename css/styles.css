@@ -13,13 +13,10 @@ body {
 }
 
 img {
-    max-width: 100%; 
+    width: 70%; 
     display: block;
-    text-align: center;
-}
-
-figure {
-    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 figcaption {
@@ -35,17 +32,16 @@ header {
     position: -webkit-sticky;
     position: sticky;
     top: 0;
-    text-align: center;
-    font-size: 1.5em;
-    font-family: "Black Ops One", system-ui;
     padding: 3%;
     background-color:  #2f8444;
     display: inline-block;
-    max-width: 100%;
 }
 
 header h1 {
     color: #101a2d;
+    text-align: center;
+    font-size: 1.5em;
+    font-family: "Black Ops One", system-ui;
 }
 
 /* Style Rules for navigation */
@@ -84,7 +80,6 @@ nav li a {
 /* Style rules for main content */
 
 #container {
-    width: 100%;
 }
 
 main {
@@ -154,15 +149,15 @@ footer p {
         position: relative;
         top: auto;
         text-align: center;
-        font-size: 2em;
-        font-family: "Black Ops One", system-ui;
         padding: 3%;
         background-color:  #2f8444;
     }
 
     header h1 {
         color: #101a2d;
-        max-width: 90%;
+        text-align: center;
+        font-size: 2em;
+        font-family: "Black Ops One", system-ui;
     }
 
     /* Style rules for nav */
@@ -223,15 +218,15 @@ footer p {
         position: relative;
         top: auto;
         text-align: center;
-        font-size: 2.5em;
-        font-family: "Black Ops One", system-ui;
         padding: 3%;
         background-color:  #2f8444;
         display: inline-block;
     }
 
     header h1 {
-        max-width: 90%;
+        text-align: center;
+        font-size: 2.5em;
+        font-family: "Black Ops One", system-ui;
         color: #101a2d;
     }
 
